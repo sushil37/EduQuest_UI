@@ -1,0 +1,30 @@
+/* src/pages/NotFound/NotFoundPage.css */
+
+.not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .not-found-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .not-found-page p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .not-found-page a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+  
+  .not-found-page a:hover {
+    text-decoration: underline;
+  }

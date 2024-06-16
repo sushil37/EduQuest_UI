@@ -1,0 +1,57 @@
+/* Updated CSS to center content and keep it on the left side */
+
+.question-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content-container {
+    width: 100%; /* Take full width of the parent container */
+    max-width: 800px; /* Limit maximum width for better readability */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow for depth */
+  }
+  
+  .question-container {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .options-list li {
+    margin-bottom: 10px;
+  }
+  
+  .options-list label {
+    display: block;
+  }
+  
+  .submit-button {
+    width: 100%; /* Take full width of the content container */
+    max-width: 200px;
+    margin-top: 20px; /* Spacing between content and button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added box-shadow for depth */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
